@@ -19,6 +19,11 @@
    "metadata": {},
    "outputs": [],
    "source": [
+    "#Uncomment the following lines if working in colab"
+    "#!git clone https://github.com/jordipons/musicnn.git"
+    "#!python musicnn/setup.py install"
+    "#!mv musicnn/* ./"
+    "#!pip install musicnn"
     "file_name = './audio/joram-moments_of_clarity-08-solipsism-59-88.mp3'"
    ]
   },
