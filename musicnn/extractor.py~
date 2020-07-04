@@ -253,7 +253,6 @@ def invert_test(file_name, input_length=3, input_overlap=False):
 
 
     audio_rep = (np.power(spectrogram,10.0)-1.0)/10000.0
-    audio_rep = audio_rep.T
 
     audio_out = librosa.feature.inverse.mel_to_audio(M=audio_rep,
                                                sr=sr,
